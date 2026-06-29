@@ -1,0 +1,12 @@
+joblib
+pyserial
+PyQt5
+peakutils
+six
+scikit-learn
+numpy
+scipy
+matplotlib
+pandas
+pyshimmer
+pyqtgraph
