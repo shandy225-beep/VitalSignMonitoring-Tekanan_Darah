@@ -1,0 +1,12 @@
+[
+    "HRV(ms)",
+    "RMS",
+    "Hjorth_Complexity",
+    "Mean_QT(s)",
+    "QTc_Bazett(s)",
+    "SDI(QT/TQ)",
+    "SDIn(QT/RR)",
+    "Hjorth_Mobility",
+    "TQ(s)",
+    "HR(bpm)"
+]

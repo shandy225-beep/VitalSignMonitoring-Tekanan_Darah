@@ -1,0 +1,31 @@
+{
+    "features_order": [
+        "HRV(ms)",
+        "RMS",
+        "Hjorth_Complexity",
+        "Mean_QT(s)",
+        "QTc_Bazett(s)",
+        "SDI(QT/TQ)",
+        "SDIn(QT/RR)",
+        "Hjorth_Mobility",
+        "TQ(s)",
+        "HR(bpm)"
+    ],
+    "note": "Fitur dalam urutan ini digunakan sebagai input untuk gpr_sbp_revisi.pkl dan gpr_dbp_revisi.pkl. Nilai fitur yang diberikan ke model HARUS dalam domain yang sama seperti yang dihitung di script ini (tanpa scaling tambahan).",
+    "label_info": {
+        "SBP_true": {
+            "winsorize_quantile": [
+                0.01,
+                0.99
+            ],
+            "unit": "mmHg"
+        },
+        "DBP_true": {
+            "winsorize_quantile": [
+                0.01,
+                0.99
+            ],
+            "unit": "mmHg"
+        }
+    }
+}
